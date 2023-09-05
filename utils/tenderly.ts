@@ -1,4 +1,4 @@
-const SimulationUrlBuilder = {
+const UrlBuilder = {
     log: (froms: string[], tos: string[], values: number[], datas: string[], chainids: number[]) => {
         for (let i = 0; i < froms.length; i++) {
             const from = froms[i];
@@ -9,4 +9,4 @@ const SimulationUrlBuilder = {
         }
     }
 };
-export { SimulationUrlBuilder };
+export { UrlBuilder };
