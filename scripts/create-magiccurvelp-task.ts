@@ -15,7 +15,6 @@ const main = async () => {
 
   {
     const task = await automate.createBatchExecTask({
-      name: "",
       web3FunctionHash: cid,
       web3FunctionArgs: {
         execAddress: "",
