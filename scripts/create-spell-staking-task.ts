@@ -14,7 +14,7 @@ const main = async () => {
 
   {
     const task = await automate.createBatchExecTask({
-      name: "SpellFarming: Withdraw & Distribute",
+      name: "Farming: Withdraw & Distribute",
       web3FunctionHash: cid,
       web3FunctionArgs: {
         bridgingMinMIMAmount: "0",
