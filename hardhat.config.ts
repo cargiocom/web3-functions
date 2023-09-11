@@ -23,7 +23,6 @@ const config = {
       "ripple",
       "dot",
       "near",
-      "bnb"
     ], 
   },
   defaultNetwork: "ethereum",
