@@ -11,8 +11,7 @@ Web3 Functions are decentralized cloud functions that work similarly to AWS Lamb
     networks: ["mumbai", "goerli", "baseGoerli"],
   },
 ```
-
-## Write a Web3 Function
+Web3 Function
 
 ```typescript
 import {
@@ -55,8 +54,6 @@ Web3Function.onRun(async (context: Web3FunctionContext) => {
   };
 });
 ```
-
-- Each Web3 Function has a `schema.json` file to specify the runtime configuration.
 
 ```json
 {
