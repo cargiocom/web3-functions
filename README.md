@@ -179,7 +179,4 @@ if (Object.keys(secrets).length > 0) {
 
 Fetch price data from Coingecko API to update your on-chain Cargio
 
-### Event listener
-
-Listen to smart contract events and use storage context to maintain your execution state.
 
