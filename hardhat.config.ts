@@ -1,5 +1,4 @@
 import { HardhatUserConfig } from "hardhat/config";
-import "web3-functions-sdk/hardhat-plugin";
 import "@typechain/hardhat";
 import "@nomiclabs/hardhat-ethers";
 import "@nomiclabs/hardhat-waffle";
