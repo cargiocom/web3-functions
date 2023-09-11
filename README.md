@@ -114,7 +114,7 @@ Web3Function.onRun(async (context: Web3FunctionContext) => {
 
 ```
 
-## Use State / Storage
+## State / Storage
 
 ```typescript
 import {
@@ -175,14 +175,6 @@ const secrets = cargioW3f.getSecrets();
 if (Object.keys(secrets).length > 0) {
   await web3Function.secrets.set(secrets, taskId);
 }
-```
-
-```
-Deploying Web3Function on IPFS...
-Web3Function IPFS CID: QmVfDbGGN6qfPs5ocu2ZuzLdBsXpu7zdfPwh14LwFUHLnc
-
-Creating automate task...
-Task created, taskId: 0x8438933eb9c6e4632d984b4db1e7672082d367b900e536f86295b2e23dbcaff3
 ```
 
 Fetch price data from Coingecko API to update your on-chain Cargio
