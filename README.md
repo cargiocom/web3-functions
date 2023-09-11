@@ -8,8 +8,6 @@ Web3 Functions are decentralized cloud functions that work similarly to AWS Lamb
 
 2. Configure your local environment:
 
-- Complete `.env` file with your private settings
-
 ## Hardhat Config
 
 ```ts
