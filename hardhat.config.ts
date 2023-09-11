@@ -22,7 +22,8 @@ const config = {
       "polygon",
       "ripple",
       "dot",
-      "near"
+      "near",
+      "bnb"
     ], 
   },
   defaultNetwork: "ethereum",
