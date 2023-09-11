@@ -10,11 +10,6 @@ Web3 Functions are decentralized cloud functions that work similarly to AWS Lamb
 
 - Complete `.env` file with your private settings
 
-```
-ALCHEMY_ID=
-PRIVATE_KEY=
-```
-
 ## Hardhat Config
 
 ```ts
