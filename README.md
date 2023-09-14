@@ -84,8 +84,6 @@ await cargioW3f.run({storage, userArgs});
 
 ## Use User arguments
 
-1. Declaring expected `userArgs` in the schema, accepted types are 'string', 'string[]', 'number', 'number[]', 'boolean', 'boolean[]':
-
 ```json
 {
   "web3FunctionVersion": "2.0.0",
