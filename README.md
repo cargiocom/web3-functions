@@ -82,8 +82,6 @@ await cargioW3f.run({storage, userArgs});
 
 `userArgs` and `storage` are optional here. When passed, it overrides the arguments defined in `userArgs.json` and `storage.json`.
 
-## Use User arguments
-
 ```json
 {
   "web3FunctionVersion": "2.0.0",
