@@ -6,7 +6,6 @@
   "scripts": {
     "clean": "rm -rf dist",
     "format": "prettier --write */**/*.*{js,json,md,ts}",
-    "format:check": "prettier --check */**/*.*{js,json,md,ts}",
     "lint:ts": "eslint -c .eslintrc.json --ext \"**/*.ts\" \"**/*.test.ts\"",
     "test": "yarn test:spell-farming && yarn test:magiclvl && yarn test:spell-swapper && yarn test:negative-interests && yarn test:stargate",
     "create-task:spell-farming": "killall -9 anvil; hardhat run ./scripts/create-spell-farming-task.ts --network anvil",
