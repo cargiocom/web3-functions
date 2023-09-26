@@ -78,11 +78,8 @@ const userArgs = {
 const storage = {};
 
 await cargioW3f.run({storage, userArgs});
-```
 
-`userArgs` and `storage` are optional here. When passed, it overrides the arguments defined in `userArgs.json` and `storage.json`.
-
-```json
+json
 {
   "web3FunctionVersion": "2.0.0",
   "runtime": "js-1.0",
