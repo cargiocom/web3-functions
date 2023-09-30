@@ -170,6 +170,4 @@ if (Object.keys(secrets).length > 0) {
 }
 ```
 
-Fetch price data from Coingecko API to update your on-chain Cargio
-
 
