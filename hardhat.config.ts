@@ -28,4 +28,4 @@ const config = {
   defaultNetwork: "ethereum",
 };
 
-export default configh;
+export default config;
