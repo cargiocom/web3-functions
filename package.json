@@ -2,7 +2,7 @@
   "name": "web3-functions-v2",
   "version": "1.0.0",
   "description": "Cargio Web3 Functions v2",
-    "private": false,
+  "private": false,
   "scripts": {
     "clean": "rm -rf dist",
     "format": "prettier --write */**/*.*{js,json,md,ts}",
