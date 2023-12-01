@@ -1,4 +1,4 @@
-import { HardhatUserConfig } from "hardhat/config";4
+import { HardhatUserConfig } from "hardhat/config";44
 import "@typechain/hardhat";
 import "@nomiclabs/hardhat-ethers";
 import "@nomiclabs/hardhat-waffle";
