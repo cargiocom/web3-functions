@@ -1,4 +1,4 @@
-11111111{
+111111111{
   "extends": "@tsconfig/recommended/tsconfig.json",
   "compilerOptions": {
     "noImplicitAny": true,
