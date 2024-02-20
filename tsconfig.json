@@ -1,4 +1,4 @@
-4444{
+44444{
   "extends": "@tsconfig/recommended/tsconfig.json",
   "compilerOptions": {
     "noImplicitAny": true,
